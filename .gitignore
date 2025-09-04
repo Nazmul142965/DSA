@@ -3,6 +3,7 @@
 *.out
 ArrayInsert
 ArrayDelete
+**/GradeDistribution
 SortedSearchingNumber
 UnsortedSearchNumer
 ChangesOfIteration
