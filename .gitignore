@@ -1,0 +1,22 @@
+# Compiled executables
+*.exe
+*.out
+ArrayInsert
+ArrayDelete
+**/GradeDistribution
+SortedSearchingNumber
+UnsortedSearchNumer
+ChangesOfIteration
+CalculatingAverageMark
+HighestMark
+LowestMark
+AboveAverage
+TopPerformer
+
+# Build artifacts
+*.o
+*.obj
+
+# IDE files
+.vscode/
+*.code-workspace

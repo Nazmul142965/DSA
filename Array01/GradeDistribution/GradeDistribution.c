@@ -40,7 +40,7 @@ int main(){
             if(marks[i]>=60 &&marks[i]<=69){
                 D++;
             }
-            if(marks[i]<=60 ){
+            if(marks[i]<60 ){
                 F++;
             }
     }

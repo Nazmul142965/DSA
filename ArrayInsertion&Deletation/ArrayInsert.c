@@ -5,11 +5,11 @@ printf("ENTER THE SIZE OF A ARRAY:\n");
 scanf("%d", &j);
 int array[j];
 printf("Enter the value of array:\n");
-for(int i= 0; i<=j; i++){
+for(int i= 0; i<j; i++){
 scanf("%d", &array[i]);
 }
 printf("Value of the array:\n");
-for(int i= 0; i<=j; i++){
+for(int i= 0; i<j; i++){
 printf("%d ", array[i]);
 }
 printf("\n");
@@ -25,7 +25,7 @@ array[n+1] = array [n];
 array[k] = item;
 j = j+1;
 printf("New array:\n");
-for(int i= 0; i<j+1; i++){
+for(int i= 0; i<j; i++){
 printf("%d ", array[i]);
 }
 return 0;
